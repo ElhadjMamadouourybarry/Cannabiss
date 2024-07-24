@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Etat de santé -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="État de santé" />
+        <Spinner
+            android:id="@+id/spinnerEtatSante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date d'arrivée" />
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+        <!-- Identification -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identification" />
+        <EditText
+            android:id="@+id/editTextIdentification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Provenance -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provenance" />
+        <EditText
+            android:id="@+id/editTextProvenance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description" />
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Stade -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stade" />
+        <Spinner
+            android:id="@+id/spinnerStade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Entreposage -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entreposage" />
+        <Spinner
+            android:id="@+id/spinnerEntreposage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Actif/Inactif -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actif/Inactif" />
+        <Spinner
+            android:id="@+id/spinnerActifInactif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Date de retrait -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date de retrait" />
+        <EditText
+            android:id="@+id/editTextDateRetrait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+
+        <!-- Raison de retrait -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raison de retrait" />
+        <Spinner
+            android:id="@+id/spinnerRaisonRetrait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Responsable de décontamination -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Responsable de décontamination" />
+        <Spinner
+            android:id="@+id/spinnerResponsableDecontamination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Note -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note" />
+        <EditText
+            android:id="@+id/editTextNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Bouton Enregistrer -->
+        <Button
+            android:id="@+id/buttonEnregistrer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer" />
+
+        <!-- ImageView pour le QR code -->
+        <ImageView
+            android:id="@+id/qrCodeImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="QR code" />
+
+    </LinearLayout>
+</ScrollView>

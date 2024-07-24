@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Cannabiss</string>
+    <string name="acceuil_activity_title">Acceuil</string>
+    <string name="ajouter_activity_title">Ajouter</string>
+    <string name="modifier_activity_title">Modifier</string>
+    <string name="consulter_activity_title">Consulter</string>
+    <string name="historique_activity_title">Historique</string>
+    <string name="archiver_activity_title">Archiver</string>
+
+
+    <!-- Etat de santé -->
+    <string-array name="etat_sante_array">
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Vert</item>
+    </string-array>
+
+    <!-- Stade -->
+    <string-array name="stade_array">
+        <item>Initiation</item>
+        <item>Microdissection</item>
+        <item>Magenta</item>
+        <item>Double magenta</item>
+        <item>Hydroponie</item>
+    </string-array>
+
+    <!-- Entreposage -->
+    <string-array name="entreposage_array">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <!-- Ajouter d'autres options selon votre besoin -->
+    </string-array>
+
+    <!-- Actif/Inactif -->
+    <string-array name="actif_inactif_array">
+        <item>Actif</item>
+        <item>Inactif</item>
+    </string-array>
+
+    <!-- Raison de retrait -->
+    <string-array name="raison_retrait_array">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <!-- Ajouter d'autres options selon votre besoin -->
+    </string-array>
+
+    <!-- Responsable de décontamination -->
+    <string-array name="responsable_decontamination_array">
+        <item>Kadija Houssein Youssouf</item>
+        <item>Alexandre Tromas</item>
+        <!-- Ajouter d'autres options selon votre besoin -->
+    </string-array>
+
+</resources>

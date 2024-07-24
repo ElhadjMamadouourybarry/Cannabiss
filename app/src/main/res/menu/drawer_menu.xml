@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_ajouter"
+        android:title="Ajouter" />
+    <item
+        android:id="@+id/nav_consulter"
+        android:title="Consulter" />
+    <item
+        android:id="@+id/nav_modifier"
+        android:title="Modifier" />
+    <item
+        android:id="@+id/nav_historique"
+        android:title="Historique" />
+    <item
+        android:id="@+id/nav_archiver"
+        android:title="Archiver" />
+</menu>
